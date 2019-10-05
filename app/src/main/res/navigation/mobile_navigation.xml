@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_accelerometer"
+        android:name="com.example.myapplication.ui.accelerometer.AccelerometerFragment"
+        android:label="@string/menu_accelerometer"
+        tools:layout="@layout/fragment_accelerometer" />
+
+    <fragment
+        android:id="@+id/nav_gyroscope"
+        android:name="com.example.myapplication.ui.gyroscope.GyroscopeFragment"
+        android:label="@string/menu_gyroscope"
+        tools:layout="@layout/fragment_gyroscope" />
+
+    <fragment
+        android:id="@+id/nav_proximity"
+        android:name="com.example.myapplication.ui.proximity.ProximityFragment"
+        android:label="@string/menu_proximity"
+        tools:layout="@layout/fragment_proximity" />
+
+    <fragment
+        android:id="@+id/nav_shake"
+        android:name="com.example.myapplication.ui.shake.ShakeFragment"
+        android:label="@string/menu_shake"
+        tools:layout="@layout/fragment_shake" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.myapplication.ui.map.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_retrieve"
+        android:name="com.example.myapplication.ui.retrieve.RetrieveFragment"
+        android:label="@string/menu_retrieve"
+        tools:layout="@layout/fragment_retrieve" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.myapplication.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.myapplication.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

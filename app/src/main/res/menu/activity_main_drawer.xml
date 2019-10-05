@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_accelerometer"
+            android:icon="@drawable/ic_compare_arrows_black_24dp"
+            android:title="@string/menu_accelerometer" />
+        <item
+            android:id="@+id/nav_gyroscope"
+            android:icon="@drawable/ic_cached_black_24dp"
+            android:title="@string/menu_gyroscope" />
+        <item
+            android:id="@+id/nav_proximity"
+            android:icon="@drawable/ic_pan_tool_black_24dp"
+            android:title="@string/menu_proximity" />
+        <item
+            android:id="@+id/nav_shake"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="@string/menu_shake" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_my_location_black_24dp"
+            android:title="@string/menu_map" />
+        <item
+            android:id="@+id/nav_retrieve"
+            android:icon="@drawable/ic_input_black_24dp"
+            android:title="@string/menu_retrieve" />
+    </group>
+
+</menu>
